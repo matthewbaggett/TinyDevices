@@ -1914,7 +1914,7 @@ design rules under a new name.</description>
 <element name="CON8" library="con-amp" package="SIMM22" value="" x="59.69" y="41.91" rot="R90"/>
 <element name="CON9" library="con-amp" package="SIMM22" value="" x="67.31" y="41.91" rot="R90"/>
 <element name="CON10" library="con-amp" package="SIMM22" value="" x="74.93" y="41.91" rot="R90"/>
-<element name="I2C" library="SparkFun-Connectors" package="AUDIO-JACK" value="" x="96.52" y="73.66" rot="R180"/>
+<element name="I2C" library="SparkFun-Connectors" package="AUDIO-JACK" value="" x="96.52" y="72.39" rot="R180"/>
 <element name="PWR" library="con-jack" package="DCJ0202" value="DCJ0202" x="88.9" y="59.69" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="88.9" y="59.69" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="88.9" y="59.69" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2200,9 +2200,9 @@ design rules under a new name.</description>
 <wire x1="44.45" y1="50.8" x2="36.83" y2="50.8" width="1.4224" layer="16"/>
 <wire x1="36.83" y1="50.8" x2="29.21" y2="50.8" width="1.4224" layer="16"/>
 <wire x1="74.93" y1="50.8" x2="81.28" y2="50.8" width="1.4224" layer="16"/>
-<wire x1="81.28" y1="50.8" x2="81.28" y2="68.66" width="1.4224" layer="16"/>
+<wire x1="81.28" y1="50.8" x2="81.28" y2="67.39" width="1.4224" layer="16"/>
 <contactref element="I2C" pad="RING"/>
-<wire x1="91.52" y1="68.66" x2="81.28" y2="68.66" width="1.4224" layer="16"/>
+<wire x1="91.52" y1="67.39" x2="81.28" y2="67.39" width="1.4224" layer="16"/>
 </signal>
 <signal name="RX">
 <contactref element="CON1" pad="7"/>
@@ -2226,10 +2226,11 @@ design rules under a new name.</description>
 <wire x1="59.69" y1="53.34" x2="67.31" y2="53.34" width="1.4224" layer="16"/>
 <wire x1="67.31" y1="53.34" x2="74.93" y2="53.34" width="1.4224" layer="16"/>
 <wire x1="74.93" y1="53.34" x2="78.74" y2="53.34" width="1.4224" layer="16"/>
-<wire x1="78.74" y1="53.34" x2="78.74" y2="78.66" width="1.4224" layer="16"/>
+<wire x1="78.74" y1="53.34" x2="78.74" y2="77.39" width="1.4224" layer="16"/>
 <contactref element="I2C" pad="TIP"/>
-<wire x1="91.52" y1="78.66" x2="78.74" y2="78.66" width="1.4224" layer="16"/>
-<wire x1="78.74" y1="78.66" x2="78.74" y2="78.74" width="1.4224" layer="16"/>
+<wire x1="78.74" y1="73.58" x2="78.74" y2="77.47" width="0" layer="19" extent="1-16"/>
+<wire x1="91.52" y1="77.39" x2="78.74" y2="77.39" width="1.4224" layer="16"/>
+<wire x1="78.74" y1="77.39" x2="78.74" y2="73.58" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GND">
 <contactref element="CON1" pad="22"/>
@@ -2291,8 +2292,8 @@ design rules under a new name.</description>
 <wire x1="97.79" y1="21.59" x2="97.79" y2="40.64" width="1.4224" layer="16"/>
 <wire x1="95.25" y1="40.64" x2="97.79" y2="40.64" width="1.4224" layer="16"/>
 <wire x1="97.79" y1="40.64" x2="97.79" y2="53.34" width="1.4224" layer="16"/>
-<wire x1="97.79" y1="53.34" x2="97.79" y2="73.66" width="1.4224" layer="16"/>
-<wire x1="97.79" y1="73.66" x2="96.52" y2="73.66" width="1.4224" layer="16"/>
+<wire x1="97.79" y1="53.34" x2="97.79" y2="72.39" width="1.4224" layer="16"/>
+<wire x1="97.79" y1="72.39" x2="96.52" y2="72.39" width="1.4224" layer="16"/>
 <wire x1="93.98" y1="53.34" x2="97.79" y2="53.34" width="1.4224" layer="16"/>
 <wire x1="29.21" y1="15.24" x2="36.83" y2="15.24" width="1.4224" layer="16"/>
 <wire x1="36.83" y1="15.24" x2="44.45" y2="15.24" width="1.4224" layer="16"/>
